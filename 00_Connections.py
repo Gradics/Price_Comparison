@@ -1,5 +1,5 @@
 import os
 os.environ['EMAIL_PASSWORD'] = 'xyz'
 
-print ('hello')
+# will not be needed
 
