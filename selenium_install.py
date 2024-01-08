@@ -43,13 +43,13 @@ for i in urls:
     # print(currentPrice)
     PriceList.append(currentPrice)
 
-dfkifli = pd.DataFrame({
-    "Shop": ShopList,
-    "Product": ProductList,
-    "Price": PriceList,
-    "URL": UrlList
-})
-dfkifli
+# dfkifli = pd.DataFrame({
+#     "Shop": ShopList,
+#     "Product": ProductList,
+#     "Price": PriceList,
+#     "URL": UrlList
+# })
+# dfkifli
 
 dfkifli.to_pickle("dfkifli.pkl")
 
