@@ -7,7 +7,11 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-driver = webdriver.Chrome(executable_path='c:/Users/gradi/Documents/PROG/Udemy/Selenium Webdriver with Python/chromedriver_win32 (1)/chromedriver.exe')
+driver = webdriver.Chrome(executable_path='c:/Users/gradi/Downloads/exe/chromedriver_win32/chromedriver.exe')
+
+
+
+
 driver.implicitly_wait(10) # seconds
 
 urls = ["https://online.auchan.hu/shop/zoldfarm-bio-uht-tej-28percent-1-l.p-182510"
