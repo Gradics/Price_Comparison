@@ -51,7 +51,7 @@ for i in urls:
 # })
 # dfkifli
 
-dfkifli.to_pickle("dfkifli.pkl")
+# dfkifli.to_pickle("dfkifli.pkl")
 
 driver.close()
 
