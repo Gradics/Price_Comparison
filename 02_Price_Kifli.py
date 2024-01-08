@@ -21,9 +21,9 @@ urls = ["https://www.kifli.hu/16552-zoldfarm-bio-uht-tej-2-8"
         , "https://www.kifli.hu/76483-cserpes-epres-joghurt"
         , "https://www.kifli.hu/14317-poco-loco-lagy-tortilla-wraps"
         # , "https://www.kifli.hu/58652-wein-s-fekete-erdei-sonka"
-        , "https://www.kifli.hu/90112-ariel-folyekony-mososzer-color-clean-fresh-2-4l"
+        # , "https://www.kifli.hu/90112-ariel-folyekony-mososzer-color-clean-fresh-2-4l"
         # , "https://www.kifli.hu/36328-barilla-fusilli-durum-szarazteszta"
-        , "https://www.kifli.hu/22996-wiesbauer-premium-becsi-virsli-2x200g"
+        # , "https://www.kifli.hu/22996-wiesbauer-premium-becsi-virsli-2x200g"
         ]
 
 ShopList = []
