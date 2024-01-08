@@ -1,13 +1,20 @@
-from selenium import webdriver
+import selenium
+selenium.__version__
 
-#chrome driver
+from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
+
 #-- Chrome
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-driver = webdriver.Chrome(executable_path='c:/Users/gradi/Documents/PROG/Udemy/Selenium Webdriver with Python/chromedriver_win32 (1)/chromedriver.exe')
+import pandas as pd
+
+service = Service()
+options = webdriver.ChromeOptions()
+driver = webdriver.Chrome(service = service, options = options)
+
 driver.implicitly_wait(10) # seconds
 
 urls = ["https://www.kifli.hu/16552-zoldfarm-bio-uht-tej-2-8"
@@ -19,7 +26,6 @@ urls = ["https://www.kifli.hu/16552-zoldfarm-bio-uht-tej-2-8"
         , "https://www.kifli.hu/22996-wiesbauer-premium-becsi-virsli-2x200g"
         ]
 
-import pandas as pd
 ShopList = []
 ProductList = []
 PriceList = []
