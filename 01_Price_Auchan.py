@@ -20,6 +20,7 @@ driver.implicitly_wait(10) # seconds
 urls = ["https://online.auchan.hu/shop/zoldfarm-bio-uht-tej-28percent-1-l.p-182510"
         , "https://online.auchan.hu/shop/cserpes-joghurt-epres-elofloras-250-g.p-400116"
         , "https://online.auchan.hu/shop/poco-loco-original-lagy-tortilla-lapok-buzalisztbol-25-cm-6-db-370-g.p-811677"
+        , "https://online.auchan.hu/shop/ariel-folyekony-mososzer-35l-70-mosashoz-color-clean-and-fresh.p-689088"
         # , "https://online.auchan.hu/shop/wein-fekete-erdei-szeletelt-fustolt-sonka-100-g.p-844695"
         # , "https://online.auchan.hu/shop/ariel-folyekony-mososzer-48-mosashoz-color.p-469370"
         # , "https://online.auchan.hu/shop/barilla-fusilli-apro-durum-szarazteszta-500-g.p-13654"

@@ -1,5 +1,5 @@
 import os
-os.environ['EMAIL_PASSWORD'] = 'Balalajka67'
+os.environ['EMAIL_PASSWORD'] = 'pw'
 
 # will not be needed
 
