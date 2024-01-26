@@ -33,7 +33,7 @@ subject = 'Árösszehasonlító'
 # """
 # =============================================================================
 
-html = """\
+html = """/
 <html>
   <head>Árösszehasonlítás Masának</head>
   <br><br>
