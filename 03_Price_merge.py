@@ -5,6 +5,7 @@ PriceMerge = pd.concat([dfAuchan, dfkifli], axis=1)
 PriceMerge.to_pickle("PriceMerge.pkl")
 
 
-print(PriceMerge)
+PriceMerge.to_csv('c:/Users/gradi/Downloads/PriceMerge.csv')
+
 
 
